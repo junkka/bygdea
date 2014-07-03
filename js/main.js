@@ -1,8 +1,15 @@
+---
+---
+{% raw %}
 var app = angular.module("bygdea", []);
 
 app.controller('evenemang', function ($scope, $http, $sce) {
 
-  $http({method: 'GET', url: 'events.json'}).
+  $http({method: 'GET', url: 
+    {% endraw %}
+    '{{ '/events.json' | prepend: site.baseurl }}'
+    {% raw %}
+    }).
     success(function(d) {
       console.log(d);
       $scope.evenemang = d;
@@ -51,3 +58,5 @@ $( document ).ready(function() {
   marker.bindPopup('Bygdeå!').openPopup();
 
 });
+
+{% endraw %}
