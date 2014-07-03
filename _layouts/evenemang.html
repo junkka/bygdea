@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="container main">
+  <div class="row">
+    <div class="col-md-12 col-sm-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1 class="text-primary">
+          <a href="/evenemang" style="font-size: 36px;"><i class="fa fa-calendar"></i> Evenemang</a>
+          </h1>
+        </div>
+        <div class="sub-heading" style="padding: 0 20px;">
+          
+          <h3><span style="color: black;"> {{ page.title }}</span></h3>
+        </div>
+        <div class="panel-body main-panel">
+          <div class="row">
+            <div class="col-sm-9" style="margin-bottom: 30px; padding: 0 20px;">
+              <dl class="dl-horizontal">
+                <dt>Datum:</dt>
+                <dd>{{page.date | date: "%Y-%m-%d"}}</dd>
+                {% if page.allday == false %}
+                <dt>Tid:</dt>
+                <dd>{{ page.date | date: "%H:%M" }}
+                {% if page.duration %} - 
+                {{ page.date | date: "%s" | divided_by: 60 | plus: page.duration | times: 60 | date: "%H:%M" }} </dd>
+                {% endif %}
+                {% endif %}
+                {% if page.place %}
+                <dt>Plats:</dt>
+                <dd>{{ page.place }}</dd>
+                {% endif %}
+              </dl>
+              
+              {{ content }}
+              
+            </div>
+            <div class="col-sm-3">
+              <p>
+                <a href="http://www.google.com/calendar/event?action=TEMPLATE&text={{ page.title }}&dates={{ page.date | date: "%Y%m%dT%H%M%S" }}/{{page.date | date: "%s" | divided_by: 60 | plus: page.duration | times: 60 | date: "%Y%m%dT%H%M%S"}}&details={{ page.excerpt | xml_escape }}&location={{ page.place }}&trp=false"
+                  target="_blank" rel="nofollow">Kopiera till min kalender</a>
+              </p>
+              {% if page.href %}
+              <p><a href="{{ page.href }}">Läs mer om evenmanget</a></p>
+              {% endif %}
+
+              {% if page.adress %}
+              <p><a href="http://maps.google.se/maps?q={{ page.adress }}" target="_blank" rel="nofollow">Hitta hit</a></p>
+              {% elsif page.place %}
+              <p><a href="http://maps.google.se/maps?q={{ page.place }}" target="_blank" rel="nofollow">Hitta hit</a></p>
+              {% endif %}
+
+            </div>
+          </div>
+
+        </div>  
+      </div>  
+    </div>
+  </div>
+</div>

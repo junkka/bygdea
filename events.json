@@ -1,0 +1,17 @@
+---
+---
+[
+    {% for even in site.categories.evenemang %}
+    {
+      "title"   : "{{ even.title }}",
+      "url"     : "{{ even.url | prepend: site.baseurl }}",
+      "href"    : "{{ even.href }}",
+      "date"    : "{{ even.start_date | date_to_xmlschema }}",
+      "allday"  : "{{ even.allday }}",
+      "duration": "{{ even.duration }}",
+      "place"   : "{{ even.place }}",
+      "desc"    : {{ even.excerpt | jsonify   }}
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]

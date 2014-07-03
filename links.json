@@ -1,0 +1,13 @@
+---
+---
+[
+    {% for link in site.data.links %}
+    {
+      "name"    : "{{ link.name }}",
+      "url"     : "{{ link.url }}",
+      "desc"     : "{{ link.content }}",
+      "type"    : "{{ link.type }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]

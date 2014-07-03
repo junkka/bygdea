@@ -1,0 +1,172 @@
+/* Space out content a bit */
+html, body {
+   height: 100%;
+}
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid #efefef;
+}
+.main {
+  padding-top: 30px;
+}
+.intro-header {
+  background-image: url('http://www.bygdea.se/img/intro.6265.jpg');
+  /*background-image: url('http://localhost/bygdea_api/frontend/app/images/intro.jpg ');*/
+  position:relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+
+.intro-header h1 {
+  padding-top: 60px;
+  color: #FFFFFF;
+  font-size: 400%;
+  text-shadow: 0 0 0.2em black;
+}
+.intro-text {
+  
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.intro-box {
+  padding-top: 210px;
+}
+
+.logo {
+  max-width: 160px;
+  padding-top: 20px;
+}
+.footer{
+  box-shadow: 0 0 5px -2px #6D6E7A;
+}
+
+.footer-map {
+  margin:auto;
+}
+#map {
+  min-height: 280px;
+}
+
+.map-text {
+  z-index:999;
+  font-size: 150%;
+  padding-top: 120px;
+}
+
+.panel-heading-img h4{
+  border:0 solid #efefef; 
+  padding-bottom: 0;
+}
+
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+textarea { 
+  resize:vertical; 
+  max-height:500px;
+  min-height:100px;
+}
+
+.h1link {
+  font-size: 100% !important;
+}
+
+.navbar-brand img {
+  width: 19px;
+  margin-right: 8px;
+}
+
+.event-content {
+  white-space: normal; /*pre*/
+  text-overflow:ellipsis; 
+  overflow:hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.hittamap {
+  height: 100%; 
+  min-height: 300px;
+}
+
+.mapwrapper{
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.main-panel {
+  min-height: 300px;
+}
+
+@media (max-width: 991px) { 
+  .intro-header h1 { 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 60px;
+  }
+  .intro-header {
+    min-height: 400px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    max-width: 120px;
+  }
+  .intro-box {
+    padding-top: 100px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .intro-header h1 { 
+    font-size: 300%;
+  }
+  .logo {
+    max-width: 160px;
+  }
+  .intro-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 481px){
+    nav.navbar
+    {
+       position: relative;
+      top: auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+  .main {
+    padding-top: 80px;
+  }
+
+  .intro-header{
+    padding-top:55px; 
+  }
+  .intro-box {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+}

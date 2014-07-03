@@ -1,0 +1,99 @@
+- name: Bygdeå GIF                  
+  url: http://www.laget.se/bygdeagif
+  desc: "Bygdeå Idrottsförening"
+  type: "Förening"
+
+- name: Hembygdsföreningen          
+  url: http://www.hembygd.se/bygdea
+  desc: "Bygdeå Hembygdsförening"
+  type: "Förening"
+
+- name: Robersfors kommun           
+  url: http://www.robertsfors.se
+  desc: "Robertsfors kommun"
+  type: "Service"
+
+- name: Bibliotek                   
+  url: http://www.minabibliotek.se/bygdea
+  desc: "Biblioteket i Bygdeå"
+  type: "Service"
+
+- name: BygdaNet Bredbandsförening  
+  url: http://bygdanet.se
+  desc: "Bygdeå bredbandsföreningen"
+  type: "Service"
+
+- name: ICA Bygdeå                  
+  url: http://www.ica.se/butiker/nara/robertsfors/ica-nara-bygdea-241/start
+  desc: "ICA nära butiken vid E4:an"
+  type: "Företag"
+
+- name: Frasses                     
+  url: http://www.frasses.se/?sida=restauranger&id=byg
+  desc: "Hamburgerestaurangen Frasses"
+  type: "Företag"
+
+- name: Restaurang Trafikanten      
+  url: http://www.trafikantenibygdea.se
+  desc: "Restaurang och bensinstation i direkt anslutning till E4:an"
+  type: "Företag"
+
+- name: Trädgår'n i Bygdeå          
+  url: https://www.facebook.com/pages/Tr%C3%A4dg%C3%A5rn-i-Bygde%C3%A5/486934468040469?rf=174447882610744
+  desc: "Handelsträdgård / Plantskola och sommar café med odling och försäljning av utplanteringsväxter, perenner jord, gödsel, trädgårdstillbehör, presentartiklar och mycket annat"
+  type: "Företag"
+
+- name: Bygdeå Jaktskytteklubb      
+  url: http://www.laget.se/BJSK
+  desc: "Driver en skjutbana belägen strax utanför Bygdeå där den huvudsakliga inriktningen är skytte mot stående och löpande älg"
+  type: "Förening"
+
+- name: Martinsonhallen             
+  url: http://www.laget.se/AKTIVFRITID
+  desc: "Platsen för gymnastik, innebandy, fotboll och andra aktiviteter"
+  type: "Förening"
+
+- name: Bygdeå Pump & step          
+  url: http://www.laget.se/PUMPOCHSTEP
+  desc: "Erbjuder olika typer av gruppträning, cykelpass och även träning i gym"
+  type: "Förening"
+
+- name: Bygdeå GIF Skidor           
+  url: http://www.laget.se/BYGDEAGIFSKIDOR
+  desc: "Skidföreningen i Bygdeå håller i skidåkning på elljusspåret i byn"
+  type: "Förening"
+
+- name: Bygdeå verkstad AB          
+  url: https://www.facebook.com/skinnarbyn
+  desc: "Servar och reparerat bil och mc samt säljer reservdelar till snöskoter, bil och mc"
+  type: "Företag"
+
+- name: Bygdeå skola                
+  url: http://www.skola.robertsfors.se/bygdea
+  desc: "Bakom kyrkan ligger Bygdeå skola för omkring 100 elever från förskola till år sex"
+  type: "Service"
+
+- name: Nisses Bygg                 
+  url: http://www.nissesbygg.com
+  desc: "Byggnadsfirma / Försäljning av Byggvaror i gamla Träbiten"
+  type: "Företag"
+
+- name: Bygdeå Byggmadsfirma        
+  url: http://www.bygdeabygg.se
+  desc: "Ett byggföretag som utför alla typer av byggnadsarbeten så som nybyggnation, om- och tillbyggnation, måleri och mycket annat"
+  type: "Företag"
+
+- name: Ulfs picture                
+  url: http://www.ulfspicture.se
+  desc: "Fotograf och konstnär"
+  type: "Företag"
+
+- name: Dalkarlså folkhögskola      
+  url: http://dalkarlsa.nu
+  desc: "Folkhögskola som erbjuder allmän kurs och musik linjer. Sommartid även vandrarhem"
+  type: "Service"
+
+- name: Dalkralså Herrgård          
+  url: http://www.dalkarlsaherrgard.se
+  desc: "Restaurang i Dalkarlså Herrgård msom serverar lunch och sommarbuffé"
+  type: "Företag"

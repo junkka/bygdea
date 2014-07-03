@@ -1,0 +1,189 @@
+---
+layout: default
+---
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&appId=520761761293670&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="intro-header">
+
+  <div class="container">
+
+    <div class="intro-text">
+      
+      <div class="row intro-box">
+        <div class="col-sm-3">
+          <img class="logo" src="img/bygdea_vapen_white.png" alt="Bygdeå logo">
+        </div>
+        <div class="col-sm-9">
+          <h1>Välkommen till Bygdeå!</h1>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container main">
+  <div class="row">
+    
+    <div class="col-md-6 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-thumbnail"><img src="img/bygdea-areal.jpg" class="img-responsive"></div>
+        <div class="panel-body">
+          <p class="lead">Bygdeå</p>
+          <p>Fyra mil norr om Umeå och 15 kilometer söder om Robertsfors <a href="https://www.google.se/maps/place/915+98+Bygde%C3%A5/@64.0609217,20.8536187,15z/data=!4m2!3m1!1s0x467c30acbc0c5835:0xee1ae650b5f106b4">ligger tätorten Bygdeå</a>. Här på den västerbottniska kustslätten innanför Bygdeåfjärden bor rund 500 personer.</p>
+        </div>
+      </div>
+    </div><!--/col-->
+
+    <div class="col-md-6 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-thumbnail"><img src="img/history.jpg" class="img-responsive"></div>
+        <div class="panel-body">
+          <p class="lead">Historia</p>
+          <p>Bygdeå hette tidigare Skinnarbyn och utgjorde centralort i Bygdeå socken. Idag tillhör byn Robertsfors kommun som fortfarande använder sig av Bygdeås ursprungliga symbol, koltrasten i dess kommunvapen. Läs mer på <a href="http://sv.wikipedia.org/wiki/Bygde%C3%A5" target="_blank">Bygdeås historia på Wikipedia</a> eller <a href="http://www.hembygd.se/bygdea/">Hemmbygdsföreningen</a>.
+          </p>
+        </div>
+      </div>
+    </div><!--/col-->
+        
+  </div>
+
+   <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading panel-heading-img">
+          <a href="http://www.bygdegardarna.se/bygdea/">
+            <h4><i class="fa fa-home"></i> Bygdeågården</h4>
+          </a>
+        </div>
+        <div class="panel-thumbnail"><img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash2/t1/392792_133510983419049_1584991060_n.jpg" class="img-responsive"></div>
+        <div class="panel-body">
+          <p>
+            Naturskönt ligger den nya Bygdeågården. Gården används som vallokal och för sammanträden, det arrangeras evenemang så som trubadurkvällar och bröllpsfester. Lokalen är lämplig för alla typer av arrangemang.
+          </p>
+          <p><a href="http://www.bygdegardarna.se/bygdea/">Läs mer ...</a></p>
+          <a href="http://www.bygdegardarna.se/bygdea/start/boka/" class="btn btn-primary btn-lg btn-block">Boka</a>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="#"><h4><i class="fa fa-facebook-square"></i> Facebook</h4></a>
+        </div>
+         <div class="panel-body">
+           <div class="fb-like-box" data-href="https://www.facebook.com/pages/Byalaget-Skinnarbyn/133510433419104" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+         </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-4 col-sm-6">     
+          
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="/lankar?type=1">
+            <h4><i class="fa fa-group"></i> Föreningsliv</h4>
+          </a> 
+        </div>
+          <div class="panel-body">
+            <ul class="list-group">
+              {% for link in site.data.links %}
+              {% if link.type == 'Förening' %}
+              <a title="{{ link.desc }}" class="list-group-item" href="{{link.url}}">{{link.name}}</a>
+              {% endif %}
+              {% endfor %}
+            </ul>      
+        
+        </div>
+      </div>
+      
+         <div class="panel panel-default">
+          <div class="panel-heading"><a href="/lankar?type=2">
+            <h4><i class="fa fa-hospital-o"></i> Service</h4></a>
+          </div>
+          <div class="panel-body">
+            <ul class="list-group">
+              {% for link in site.data.links %}
+              {% if link.type == 'Service' %}
+              <a title="{{ link.desc }}" class="list-group-item" href="{{link.url}}">{{link.name}}</a>
+              {% endif %}
+              {% endfor %}
+            </ul>
+        
+        </div>
+       </div>
+      
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="/lankar?type=3"><h4><i class="fa fa-shopping-cart"></i> Företag</h4></a>
+        </div>  
+        <div class="panel-body">
+          
+          <ul class="list-group">
+              {% for link in site.data.links %}
+              {% if link.type == 'Företag' %}
+              <a title="{{ link.desc }}" class="list-group-item" href="{{link.url}}">{{link.name}}</a>
+              {% endif %}
+              {% endfor %}
+          </ul>
+        </div>
+      </div>      
+      <div class="panel panel-default">
+         <div class="panel-heading"><h4 class="text-primary">Vad saknas på bygdea.se?</h4></div>
+         <div class="panel-body">
+          <p style="font-size:110%;">Är du ett företag eller en förening som är verksam i Bygdeå med omnejd och vill synas på bygdea.se, skicka ett mejl till <a target="_blank" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div><!--/row-->
+  <div class="row" ng-app="bygdea" ng-controller="evenemang" >
+    <div class="col-lg-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"> 
+        <a href="/evenemang"><h3><i class="fa fa-calendar"></i> Evenemang</h3></a>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group">
+          {% raw %}
+            <a ng-href="{{even.url}}" class="list-group-item" ng-repeat="even in filtered = (evenemang | futureEvent) | orderBy: 'date' | limitTo: 5">
+              <table style="width: 100%;">
+                <tbody>
+                  <tr>
+                    <td width="80" style="padding-right:20px; text-align:center;">
+                      <span class="text-primary"><span style="font-size:200%;">{{ dateToISO(even.date) | date: 'd'}}</span><br>
+                      {{ dateToISO(even.date) | date: 'MMMM'}}<br><br>
+                      <span ng-hide="{{even.allday}}">{{dateToISO(even.date)| date: 'HH:mm'}}</span></span>
+                    </td>
+                    <td>
+                      <p class="lead">{{even.title}}</p>
+                      <p class="event-content" ng-bind-html="to_trusted(even.desc)"></p>
+                    </td>
+                    <td ng-show="{{even.url}}"><i class="text-primary fa fa-angle-right fa-3x pull-right"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+            </a>
+            {% endraw %}
+          </ul>
+          <a ng-show="moreEvents(filtered.length)" href="/evenemang" class="btn btn-primary btn-block">fler evenemang ...</a>
+        </div> <!-- /panel-body -->
+      </div>
+    </div>
+  </div> <!-- /row -->
+
+  <div class="clearfix"></div>  
+  <br>
+
+</div><!--/main-->
+</div>
