@@ -1,8 +1,3 @@
-cd# Jekyll configuration precedence:
-# 1. Gruntfile task
-# 2. config.build.yml
-# 3. config.yml
-
 title: Bygdeå
 description: Bygdeå en by fyra mil norr om Umeå
 email: byalagetskinnarbyn@gmail.com
@@ -10,10 +5,8 @@ author:
   name: Byalaget
   email: byalagetskinnarbyn@gmail.com
 
-
-# _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
-show_drafts: true
+show_drafts: false
 
 permalink: /:categories/:title
 baseurl: "http://www.bygdea.se"
