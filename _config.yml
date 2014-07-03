@@ -16,7 +16,7 @@ future: true
 show_drafts: true
 
 permalink: /:categories/:title
-baseurl: "/bygdea"
+baseurl: "http://www.bygdea.se"
 url: ""
 
 # Markdown library

@@ -10,7 +10,7 @@ html, body {
   padding-top: 30px;
 }
 .intro-header {
-  background-image: url('http://www.bygdea.se/img/intro.6265.jpg');
+  background-image: url('http://www.bygdea.se/img/intro.jpg');
   /*background-image: url('http://localhost/bygdea_api/frontend/app/images/intro.jpg ');*/
   position:relative;
   background-size: cover;
