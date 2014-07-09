@@ -49,13 +49,15 @@ prose:
       - name: "duration"
         field:
           element: "number"
+          type: "number"
           label: "Minuter"
           value: ""
+          placeholder: 60
       - name: "allday"
         field:
           element: "checkbox"
           label: "Heldagsevenemang"
-          value: "false"
+          value: true
       - name: "place"
         field:
           element: "text"
@@ -71,3 +73,4 @@ prose:
           element: "text"
           label: "Länk"
           value: ""
+          placeholder: "http://"
