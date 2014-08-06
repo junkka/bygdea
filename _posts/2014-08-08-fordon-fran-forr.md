@@ -3,8 +3,8 @@ layout: evenemang
 category: evenemang
 
 title: Fordon från förr
-date: 2014-11-29 18:00:00 +0200
-start_date: 2014-11-29 18:00:00 +0200
+date: 2014-08-08 18:00:00 +0200
+start_date: 2014-08-08 18:00:00 +0200
 duration: 180
 allday: true
 place: Gullparken Gullmark
