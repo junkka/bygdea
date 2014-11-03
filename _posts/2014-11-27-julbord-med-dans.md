@@ -17,5 +17,5 @@ Bygdeås årliga julbord, i år med dans till BaViBa!
 Anmäl till 070-5886625.
 
 Avgift betalas in till Bg 445-1639:<br>
-250 kr för medlemmar <br>
-300 kr för icke-medlemmar
+250 kr/person för medlemmar <br>
+300 kr/person för icke-medlemmar
