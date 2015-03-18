@@ -3,8 +3,8 @@ layout: evenemang
 category: evenemang
 
 title: "Sagostund - Troll"
-date: 2015-03-17 09:30:00 +0200
-start_date: 2015-03-17 09:30:00 +0200
+date: 2015-03-17 09:30:00
+start_date: 2015-03-17 09:30:00
 duration: 120
 allday: false
 place: "Bygdeå bibliotek"
