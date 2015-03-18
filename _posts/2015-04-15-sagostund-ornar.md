@@ -3,8 +3,8 @@ layout: evenemang
 category: evenemang
 
 title: "Sagostund - Örnar"
-date: 2015-04-14 09:30:00
-start_date: 2015-04-14 09:30:00
+date: 2015-04-14 09:30:00 +0200
+start_date: 2015-04-14 09:30:00 +0200
 duration: 120
 allday: false
 place: "Bygdeå bibliotek"
