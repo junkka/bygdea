@@ -84,7 +84,7 @@
   type: "Företag"
 
 - name: Ulfs picture                
-  url: http://www.ulfspicture.se
+  url: http://www.ulfspicture.com
   desc: "Fotograf och konstnär"
   type: "Företag"
 
@@ -94,6 +94,6 @@
   type: "Service"
 
 - name: Dalkralså Herrgård          
-  url: http://www.dalkarlsaherrgard.se
-  desc: "Restaurang i Dalkarlså Herrgård msom serverar lunch och sommarbuffé"
+  url: https://www.facebook.com/DalkarlsaHerrgard
+  desc: "Restaurang i Dalkarlså Herrgård msom serverar lunch"
   type: "Företag"
