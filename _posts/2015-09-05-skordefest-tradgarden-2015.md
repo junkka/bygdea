@@ -3,8 +3,8 @@ layout: evenemang
 category: evenemang
 
 title: "Höstmarknad/Sköredefest på Trädgår'n"
-date: 2014-09-05 10:00:00 +0200
-start_date: 2014-09-05 10:00:00 +0200
+date: 2015-09-05 10:00:00 +0200
+start_date: 2015-09-05 10:00:00 +0200
 duration: 1800
 allday: false
 place: "Trädgår'n i Bygdeå"
