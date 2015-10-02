@@ -2,8 +2,8 @@
 layout: evenemang
 category: evenemang
 title: Julmarknad på Dalkarlså folkhögskola
-date: 2014-12-05 13:00:00 +0400
-start_date: 2014-12-05 13:00:00 +0400
+date: 2015-12-05 13:00:00 +0400
+start_date: 2015-12-05 13:00:00 +0400
 duration: 180
 allday: false
 place: Dalkarlså folkhögskola
