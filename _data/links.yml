@@ -28,8 +28,18 @@
   desc: "ICA nära butiken vid E4:an"
   type: "Företag"
 
+- name: Hantverk i Ratan
+  url: http://www.hantverkiratan.se/
+  desc: "I en handelsbod i Ratan säljs lokala hantverk såsom träslöjd, luffarslöjd, handgjorda tvålar, örtsalter, betong mm"
+  type: "Företag"
+  
+. name: Malin i RATAN
+  url: http://maliniratan.se/
+  desc: "Ekologiska tvålar tillverkade på gamla tiders hantverksvis"
+  type: "Företag"
+
 - name: Frasses                     
-  url: http://www.frasses.se/?sida=restauranger&id=byg
+  url: http://www.frasses.se
   desc: "Hamburgerestaurangen Frasses"
   type: "Företag"
 
