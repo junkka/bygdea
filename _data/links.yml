@@ -33,7 +33,7 @@
   desc: "I en handelsbod i Ratan säljs lokala hantverk såsom träslöjd, luffarslöjd, handgjorda tvålar, örtsalter, betong mm"
   type: "Företag"
   
-. name: Malin i RATAN
+- name: Malin i RATAN
   url: http://maliniratan.se/
   desc: "Ekologiska tvålar tillverkade på gamla tiders hantverksvis"
   type: "Företag"
