@@ -15,3 +15,4 @@ Julmarknad inne och ute vid och i vackra Dalkarlså Herrgård tomten kommer på 
 Tomten kommer på besök och läser en saga för barnen. Musikunderhållning i stora herrgården. Fikaförsäljning.
 
 Arrangör: Dalkarlså Folkhögskola
+
