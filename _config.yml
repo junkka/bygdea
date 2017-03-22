@@ -13,7 +13,7 @@ baseurl: "http://www.bygdea.se"
 url: ""
 
 # Markdown library
-markdown: rdiscount
+# markdown: rdiscount
 #   extensions: []
 
 prose:
